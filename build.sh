@@ -39,6 +39,7 @@ else
    echo "Go is installed."
 fi
 
+
 echo -n "Enter your GitHub username (lowercase): "
 read username
 
