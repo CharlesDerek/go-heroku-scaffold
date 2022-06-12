@@ -13,14 +13,14 @@ This application supports the [Getting Started with Go on Heroku](https://devcen
 
 ## Scaffold Documentation:
 
-    [ ]: Give the scaffold appropriate permissions:
-        ```sudo chmod +x ./build.sh```
-    [ ]: Run the scaffold:
-        ```./build.sh```
-    [ ]: Provide the scaffold with your signed in github username.
-    [ ]: At [github.com/new](https://github.com/new) create a new repository, taking note of the repository name.
-    [ ]: Provide the scaffold with the name of the repository name on github you just created.
-    [ ]: Sit back and let the scaffold do the rest.
+- Give the scaffold appropriate permissions:
+    ```sudo chmod +x ./build.sh```
+- Run the scaffold:
+    ```./build.sh```
+- Provide the scaffold with your signed in github username.
+- At [github.com/new](https://github.com/new) create a new repository, taking note of the repository name.
+- Provide the scaffold with the name of the repository name on github you just created.
+- Sit back and let the scaffold do the rest.
 
 
 ## Running Locally (untested):
