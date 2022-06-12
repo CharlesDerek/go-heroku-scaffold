@@ -66,3 +66,16 @@ else
     echo "Commits saved locally"
 #   Run local commit only with a abritrary inserted value to unassigned variable `$commit` (Example): ```commit=1 ./push.sh```
 fi
+
+#Deploy:
+if [ -z "$commit" ]; then
+    echo "Saving your changes..."
+elif [ -z "$githubonly" ]; then
+    echo "Pushing to github only"
+    git push
+else
+    echo "Pushing to Github only"
+    git push
+    git push heroku
+fi
+#   Run local commit only with a abritrary inserted value to unassigned variable `$commit` (Example): ```githubonly=1 ./push.sh```
