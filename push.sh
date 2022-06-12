@@ -58,9 +58,8 @@ git status
 echo "Your provided git message is: "${branch_message}
 git commit -m "${branch_message}"
 
-
 #Deploy:
-if [ -z "$commit" ]; then
+if [ -n "$commit" ]; then
     echo "Saving your changes..."
 elif [ -z "$githubonly" ]; then
     echo "Pushing to github only"
